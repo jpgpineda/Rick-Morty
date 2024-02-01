@@ -13,6 +13,17 @@
 		08EF9A6F2B69B2A400580AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EF9A6D2B69B2A400580AD9 /* Main.storyboard */; };
 		08EF9A712B69B2A500580AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EF9A702B69B2A500580AD9 /* Assets.xcassets */; };
 		08EF9A742B69B2A500580AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EF9A722B69B2A500580AD9 /* LaunchScreen.storyboard */; };
+		08EF9A7C2B69B2D500580AD9 /* ApiRequestDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A7B2B69B2D500580AD9 /* ApiRequestDispatcher.swift */; };
+		08EF9A7E2B69B34F00580AD9 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A7D2B69B34F00580AD9 /* ApiRouter.swift */; };
+		08EF9A802B69B3FF00580AD9 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A7F2B69B3FF00580AD9 /* HTTP.swift */; };
+		08EF9A822B69C1C400580AD9 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A812B69C1C400580AD9 /* ApiError.swift */; };
+		08EF9A842B69C4B700580AD9 /* CharacterApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A832B69C4B700580AD9 /* CharacterApiClient.swift */; };
+		08EF9A862B69C54B00580AD9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A852B69C54B00580AD9 /* Character.swift */; };
+		08EF9A882B69C64500580AD9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A872B69C64500580AD9 /* ViewModel.swift */; };
+		08EF9A8A2B69C8CA00580AD9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A892B69C8CA00580AD9 /* UIViewController+Ext.swift */; };
+		08EF9A8D2B69CA0000580AD9 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A8B2B69CA0000580AD9 /* CharacterTableViewCell.swift */; };
+		08EF9A8E2B69CA0000580AD9 /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08EF9A8C2B69CA0000580AD9 /* CharacterTableViewCell.xib */; };
+		08EF9A902B69CA9D00580AD9 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF9A8F2B69CA9D00580AD9 /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		08EF9A702B69B2A500580AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08EF9A732B69B2A500580AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08EF9A752B69B2A500580AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08EF9A7B2B69B2D500580AD9 /* ApiRequestDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestDispatcher.swift; sourceTree = "<group>"; };
+		08EF9A7D2B69B34F00580AD9 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		08EF9A7F2B69B3FF00580AD9 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		08EF9A812B69C1C400580AD9 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		08EF9A832B69C4B700580AD9 /* CharacterApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterApiClient.swift; sourceTree = "<group>"; };
+		08EF9A852B69C54B00580AD9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		08EF9A872B69C64500580AD9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		08EF9A892B69C8CA00580AD9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		08EF9A8B2B69CA0000580AD9 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		08EF9A8C2B69CA0000580AD9 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		08EF9A8F2B69CA9D00580AD9 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,17 @@
 				08EF9A702B69B2A500580AD9 /* Assets.xcassets */,
 				08EF9A722B69B2A500580AD9 /* LaunchScreen.storyboard */,
 				08EF9A752B69B2A500580AD9 /* Info.plist */,
+				08EF9A7B2B69B2D500580AD9 /* ApiRequestDispatcher.swift */,
+				08EF9A7D2B69B34F00580AD9 /* ApiRouter.swift */,
+				08EF9A7F2B69B3FF00580AD9 /* HTTP.swift */,
+				08EF9A812B69C1C400580AD9 /* ApiError.swift */,
+				08EF9A832B69C4B700580AD9 /* CharacterApiClient.swift */,
+				08EF9A852B69C54B00580AD9 /* Character.swift */,
+				08EF9A872B69C64500580AD9 /* ViewModel.swift */,
+				08EF9A892B69C8CA00580AD9 /* UIViewController+Ext.swift */,
+				08EF9A8B2B69CA0000580AD9 /* CharacterTableViewCell.swift */,
+				08EF9A8C2B69CA0000580AD9 /* CharacterTableViewCell.xib */,
+				08EF9A8F2B69CA9D00580AD9 /* UITableView+Ext.swift */,
 			);
 			path = "Rick&Morty";
 			sourceTree = "<group>";
@@ -128,6 +161,7 @@
 				08EF9A742B69B2A500580AD9 /* LaunchScreen.storyboard in Resources */,
 				08EF9A712B69B2A500580AD9 /* Assets.xcassets in Resources */,
 				08EF9A6F2B69B2A400580AD9 /* Main.storyboard in Resources */,
+				08EF9A8E2B69CA0000580AD9 /* CharacterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EF9A882B69C64500580AD9 /* ViewModel.swift in Sources */,
+				08EF9A862B69C54B00580AD9 /* Character.swift in Sources */,
+				08EF9A822B69C1C400580AD9 /* ApiError.swift in Sources */,
+				08EF9A8A2B69C8CA00580AD9 /* UIViewController+Ext.swift in Sources */,
+				08EF9A842B69C4B700580AD9 /* CharacterApiClient.swift in Sources */,
+				08EF9A902B69CA9D00580AD9 /* UITableView+Ext.swift in Sources */,
 				08EF9A6C2B69B2A400580AD9 /* ViewController.swift in Sources */,
 				08EF9A682B69B2A400580AD9 /* AppDelegate.swift in Sources */,
+				08EF9A7E2B69B34F00580AD9 /* ApiRouter.swift in Sources */,
+				08EF9A802B69B3FF00580AD9 /* HTTP.swift in Sources */,
 				08EF9A6A2B69B2A400580AD9 /* SceneDelegate.swift in Sources */,
+				08EF9A7C2B69B2D500580AD9 /* ApiRequestDispatcher.swift in Sources */,
+				08EF9A8D2B69CA0000580AD9 /* CharacterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
